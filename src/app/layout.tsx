@@ -25,10 +25,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-			>
-				{/* ici on place le code du layout c'est a dire du code qui sera rendu quelque soit la page, le contenu de la page est rendu à la place de {children} */}
+			<body>
 				<div className="h-screen bg-linear-to-b from-sky-500 to-indigo-500">
 					<Header />
 					{children}

@@ -1,12 +1,14 @@
 import City from "@/components/City";
-import Header from "@/components/Header";
+import Counter from "@/components/Counter";
 
 export default function Home() {
 	const cities = ["Lully", "Montpellier"];
-	console.log(cities);
+	console.log("render page");
 
 	return (
 		<div className="flex gap-4 flex-wrap justify-center">
+			<Counter />
+
 			{cities.map((city) => (
 				<City cityName={city} key={city} />
 			))}

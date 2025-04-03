@@ -1,4 +1,4 @@
-// pour les liens en client side rendering c'est comme react-router on a un composant Link
+// import du composant Link de Next (casi identique au composant Link de react-router)
 import Link from "next/link";
 
 export default function Header() {
